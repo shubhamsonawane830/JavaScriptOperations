@@ -21,13 +21,7 @@ let numberFive = Math.floor((Math.random() * 90)+ 10);
 
 let sumOfAll = (numberOne + numberTwo + numberThree + numberFour + numberFive);
 let avgOfAll = sumOfAll/5;
-console.log(avgOfAll);
 
 // 5.Use Script & Debug - Unit Conversion
 // a. 1ft = 12 in then 42 in = ? ft
     let conversion = 42/12;
-// b.Rectangular Plot of 60 feet * 40 feet in meters
-    let conversionInMtrs = (60*40)/10.764;
-// c.Calculate area of 25 such plots in acres
-    let conversionInAcres = (60*40*25)/43560;
-    
